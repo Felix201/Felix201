@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171127653-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171127653-2');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eng Felix Ombaba:: Home</title>
+  <meta name="description" content="Official Portfolio Website of Allan Mwaura">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./images/GNlogo.png" type="icon">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="nav" id="id" id="home">
+    <div class="nav-center">
+      <!-- logo -->
+
+      <div class="nav-header">
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- logo -->
+
+      <!-- nav-links -->
+      <div>
+        <ul class="nav-links">
+          <li>
+            <a href="#index">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#blogs">blogs</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- nav-links -->
+    </div>
+  </nav>
+  <!-- navbar -->
+  <!-- sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <!-- nav-links -->
+
+      <ul class="sidebar-links">
+        <li>
+          <a href="#index" onclick="getElementById('close-btn').click()">home</a>
+        </li>
+        <li>
+          <a href="#about" onclick="getElementById('close-btn').click()">about</a>
+        </li>
+        <li>
+          <a href="#projects" onclick="getElementById('close-btn').click()">projects</a>
+        </li>
+        <li>
+          <a href="#blogs" onclick="getElementById('close-btn').click()">blogs</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="getElementById('close-btn').click()">contact</a>
+        </li>
+      </ul>
+
+      <!-- nav-links -->
+
+      <!-- social links -->
+
+      <ul class="social-icons">
+      <li>
+        <a href="https://twitter.com/felix_eradion?s=09" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/eng-felix-ombaba-a5b4b5124/" target="_blank" rel="noopener noreferrer"
+          class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://dev.to/felix_eradion" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-dev"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/eradionfelix//" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+
+      <!-- social-links -->
+    </div>
+  </aside>
+  <!-- sidebar -->
+  <!-- header -->
+  <header class="hero">
+    <div class="section-center hero-center">
+      <article class="hero-info">
+        <div class="underline"></div>
+        <h1>I'm Eng Felix Ombaba  </h1>
+        <h4> Software Dev Major On Web Developement And Design</h4>
+        <a href="#" class="btn hero-btn">Contact me</a>
+        <!-- social icons -->
+        <ul class="social-icons">
+      <li>
+        <a href="https://twitter.com/felix_eradion?s=09" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/eng-felix-ombaba-a5b4b5124/" target="_blank" rel="noopener noreferrer"
+          class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://dev.to/felix_eradion" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-dev"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/eradionfelix//" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+      </article>
+      <article class="hero-img">
+        <img src="./images/.jpg" class="hero-photo" alt="allan" />
+      </article>
+    </div>
+  </header>
+  <!-- end of header -->
+  <!-- about -->
+  <section class="section about" id="about">
+    <div class="section-center about-center">
+      <!-- about img -->
+      <article class="about-img">
+        <img src="./images/.jpg" class="hero-photo" alt="allan" />
+      </article>
+      <!-- about info -->
+      <article class="about-info">
+        <!-- section title -->
+        <div class="section-title about-title">
+          <h2>about</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p>
+          Hey, My name is Eng Felix Ombaba <a href="https://dev.to/allanmwaura">
+  <i class="fab fa-dev" title="allanmwaura's DEV Profile"></i>
+</a>,A Software Developer based in Eldoret Kenya.
+        </p>
+        <p>
+        	I develop Softwares with a major in Websites and Web Applications.
+        </p>
+        <p>
+          I posses a diverse set of skills ranging from design to HTML + Bootsrap + Javascript to PHP,PYTHON custom WordPress CMS customization and Windows & Linux Server Adminstration.Am also good with data analysation.
+          
+        </p>
+        <a href="#contact" class="btn">Connect with me</a>
+      </article>
+    </div>
+  </section>
+  <!-- end of about -->
+  <!-- projects -->
+  <section class="section projects" id="projects">
+    <!-- section title -->
+    <div class="section-title">
+      <h2 class="section-primary">Projects</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center projects-center">
+      <div class="card-list">
+        <div class="project-card" id="card-1">
+          <div class="project-img">
+            <img src="./projects/project-1.png" alt="blog project">
+          </div>
+          <div class="header">
+            <h2>Sisibo Estate</h2>
+            <div class="title">Technology Used - WordPress </div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">I and My Partner created an amazing real estate website for Sisibo Estate</div>
+          <div class="actions">
+            <a href="https://sisiboestate.com" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com">
+              <button>
+                <span>
+                  <i class="fab fa-github"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card" id="card-2">
+          <div class="project-img">
+            <img src="./projects/project-6.png" alt="ketrichltdke">
+          </div>
+          <div class="header">
+            <h2>Ketrich Ltd</h2>
+            <div class="title">Language Used - PHP</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc"> A website created for KetrichLtd ,an Autocare company in Eldoret Town
+          </div>
+          <div class="actions">
+            <a href="https://ketrichltd.co.ke" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com">
+              <button>
+                <span>
+                  <i class="fab fa-github-alt"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" id="card-2">
+          <div class="project-img">
+            <img src="./projects/project-2.png" alt="eldorockacademy project">
+          </div>
+          <div class="header">
+            <h2>Eldorock Academy</h2>
+            <div class="title">Language Used - PHP</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc"> A website created for Eldorock Academy,an academy in the outskirts of Eldoret Town
+          </div>
+          <div class="actions">
+            <a href="https://eldorockacademy.co.ke" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com">
+              <button>
+                <span>
+                  <i class="fab fa-github-alt"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card" id="card-3">
+          <div class="project-img">
+            <img src="./projects/project-3.png" alt="M.I.S project">
+          </div>
+          <div class="header">
+            <h2>Management Information System</h2>
+            <div class="title">Language Used - PHP</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">A college Information Management System for Chepsirei Technical and Vocation.
+          </div>
+          <div class="actions">
+            <a href="https://portal.chepsiretvc.ac.ke" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com">
+              <button>
+                <span>
+                  <i class="fab fa-github-alt"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card" id="card-4">
+          <div class="project-img">
+            <img src="./projects/project-5.png" alt="believementalhealth project">
+          </div>
+          <div class="header">
+            <h2>Believe Mental Health Care Organization</h2>
+            <div class="title">Tech Used - WordPress</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">A website for Believe Mental Health Care, A charity organization based in Eldoret town </div>
+          <div class="actions">
+            <a href="https://believementalhealth.com/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+             <a href="https://github.com">
+              <button>
+                <span>
+                  <i class="fab fa-github-alt"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card" id="card-4">
+          <div class="project-img">
+            <img src="./projects/project-4.png" alt="dailyspiced project">
+          </div>
+          <div class="header">
+            <h2>Blogging Site</h2>
+            <div class="title">Tech Used - WordPress</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">A blogging site for DailySpiced </div>
+          <div class="actions">
+            <a href="https://dailyspiced.com/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+             <a href="https://github.com">
+              <button>
+                <span>
+                  <i class="fab fa-github-alt"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- end of projects -->
+  <!-- skills -->
+  <section class="section skills" id="skills">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>skills</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center skills-center">
+      <article>
+        <h3>Languages</h3>
+        <div class="skill-box-1">
+          <img class="skill-icn" src="./logos/python.svg" alt="python">
+          <img class="skill-icn" src="./logos/javascript.svg" alt="javascript">
+          <img class="skill-icn" src="./logos/Java.svg" alt="Java">
+        </div>
+      </article>
+      <article>
+        <h3>Technologies</h3>
+        <div class="skill-box-2">
+          <img class="skill-icn" src="./logos/react.svg" alt="react">
+          <img class="skill-icn" src="./logos/Java.svg" alt="Java">
+          <img class="skill-icn" src="./logos/django.svg" alt="django">
+          <img class="skill-icn" src="./logos/node-js.svg" alt="nodejs">
+        </div>
+      </article>
+      <article>
+        <h3>Tools</h3>
+        <div class="skill-box-3">
+          <img class="skill-icn" src="./logos/vscode.svg" alt="vscode">
+          <img class="skill-icn" src="./logos/git.svg" alt="git">
+          <img class="skill-icn" src="./logos/figma.svg" alt="figma">
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- end of skills -->
+  <!-- timeline -->
+  <section class="section timeline">
+    <!-- section title -->
+    <div class="section-title">
+      <h2 class="section-primary">timeline</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center timeline-center">
+      <!-- single timeline item -->
+       <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>Nov - 2020</h4>
+        <p>
+          Got to join aa team as a Software Developer at Projtrac Systems a.It has been a real honor being selected among many other appliants.The first week wasn't that soft,switching from a freelancer to a Full time Dev hasn't been easy.Am currently finishing my first project with them,done by Laravel and Bootstrap.
+        </p>
+        <span class="number"> 8 </span>
+      </article>
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>Oct - 2020</h4>
+        <p>
+          Worked on a client's website using Laravel Framework,It grately helped in sharpening my Laravel skills and knowledge and pretty much enabled me pass my interview.
+        </p>
+        <span class="number"> 7 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- end of  single timeline item -->
+      <article class="timeline-item">
+        <h4>May - 2020</h4>
+        <p>
+          Competed taking the #100daysofcode challenge with google africa developer scholarship and andela learning community, I have revised my skills,I have also learnt more technologies.I belive this will get the best version of me.I started learning android development.My aim is to complete this challenge close enough to being a Full Stack android app Developer.
+        </p>
+        <span class="number"> 6 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>June - 2019</h4>
+        <p>
+          I got so active on twitter,I connected with a lot of like-minded developers,I also became an active member on online Forums,as a way of giving back to the society.
+        </p>
+        <span class="number">5</span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>late - 2019</h4>
+        <p>
+          My journey was smooth,getting gigs here and there and also continuing learning new skills and technologies,I dived deep into JavaScript, and had to choose a Framework that I could pursue,I decided to take on VueJs,which I found Interesting. 
+        </p>
+        <span class="number"> 4 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4> Early - 2019</h4>
+        <p>
+          After observing the trends,I learnt that I had to learn Frameworks,I started with Laravel(PHP a Framework) ,It was really nice getting into OOP,I now develop web apps that consume API's.
+        </p>
+        <span class="number"> 3 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2018</h4>
+        <p>
+        I continued learing new skills,I started working on PHP and MYSQL.After practising for months,I could develop web applications for clients.       </p>
+        <span class="number"> 2 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2017</h4>
+        <p>
+          My Journey started here, I begun with HTML + CSS,I created a number of static webpages then learnt Javascript ,this enabled in developing dynamic pages,which I still develop todate.
+        </p>
+        <span class="number"> 1 </span>
+      </article>
+      <!-- end of  single timeline item -->
+    </div>
+  </section>
+  <!--end of  timeline -->
+  <!-- footer -->
+  <footer class="footer" id="contact">
+    <!-- social icons -->
+    <ul class="social-icons">
+      <li>
+        <a href="https://twitter.com/felix_eradion?s=09" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/eng-felix-ombaba-a5b4b5124/" target="_blank" rel="noopener noreferrer"
+          class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://dev.to/felix_eradion" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-dev"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/eradionfelix//" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p>&copy; <span id="date"></span> Eng Felix Ombaba.<span class="kenya"></span>
+    </p>
+  </footer>
+
+  <script async src="./js/app.js"></script>
+</body>
+
+</html>
